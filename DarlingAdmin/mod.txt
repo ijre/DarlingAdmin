@@ -11,7 +11,7 @@
   "updates":
   [
     {
-      "indentifier": "DarlingAdmin",
+      "identifier": "DarlingAdmin",
       "host":
       {
         "meta": "https://github.com/ijre/DarlingAdmin/releases/download/DA/meta.json"
