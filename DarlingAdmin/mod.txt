@@ -1,0 +1,21 @@
+{
+  "name": "DarlingAdmin",
+  "author": "ijre",
+  "hooks":
+  [
+    {
+      "hook_id": "lib/managers/chatmanager",
+      "script_path": "main.lua"
+    }
+  ],
+  "updates":
+  [
+    {
+      "indentifier": "DarlingAdmin",
+      "host":
+      {
+        "meta": ""
+      }
+    }
+  ]
+}
