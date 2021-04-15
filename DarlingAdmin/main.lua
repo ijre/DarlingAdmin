@@ -77,7 +77,7 @@ local function CheckValid(mess, messagePeer)
   return ret, isPaigeHost
 end
 
-Hooks:PostHook(ChatManager, "receive_message_by_peer", "OnMessage", function(_, _, messagePeer, message)
+Hooks:PostHook(ChatManager, "receive_message_by_peer", "OnMessageDarling", function(_, _, messagePeer, message)
   local command, isPaigeHost = CheckValid(message, messagePeer)
 
   if not command then
