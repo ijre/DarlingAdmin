@@ -34,14 +34,6 @@ local function CheckValid(mess, messagePeer)
   local isPaigeHost = localPeer == paigeID
   local isLyraHost  = localPeer == lyraID
 
-  if not isPaigeAuthor and not isPaigeDebugAuthor and not isLyraAuthor then
-    local title = isPaigeHost and "joyfriend" or isLyraHost and "girlfriend" or "little pogchamp"
-
-    managers.chat:send_message(1, nil, "You're not my " .. title .. " >:^(")
-    return nil
-  end
-
-
   local command = string.lower(string.sub(mess, 2))
   local short = string.sub(command, 1, 1)
   local ret = nil
